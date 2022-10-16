@@ -1,0 +1,10 @@
+version: "3"
+services:
+  app:
+    build: .
+    tty: true
+    volumes:
+      - .:/orchestramaker
+    ports:
+      - "3000:3000"
+    # stdin_open: true　//標準入出力とエラー出力をコンテナに結びつける設定
