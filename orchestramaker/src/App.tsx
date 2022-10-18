@@ -4,13 +4,13 @@ import React from "react";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 
 const App = () => (
-  <BrowserRouter>
+  <>
     <Header />
     <Routes>
       <Route path="/" element={<FrontPage />} />
     </Routes>
     <Footer />
-  </BrowserRouter>
+  </>
 );
 
 const Header = () => (
