@@ -1,8 +1,13 @@
+import React from "react";
+
 const Footer = () => {
-  const style = {
-    width: "100px",
-  };
-  return <div>yaa</div>;
+  return (
+    <footer>
+      <p class="m-0 text-center text-white">
+        Copyright &copy; OrchestraMaker 2022
+      </p>
+    </footer>
+  );
 };
 
 export default Footer;
