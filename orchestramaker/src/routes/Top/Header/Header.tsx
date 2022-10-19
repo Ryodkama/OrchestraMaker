@@ -4,7 +4,9 @@ import "../../../App.css";
 const Header = () => (
   <>
     <div className="App-header">
-      <h1>ログインページ</h1>
+      <h1>
+        <Link to={`/login`}>ログイン</Link>
+      </h1>
       <div>
         新規登録は<Link to={`/signup`}>こちら</Link>
       </div>

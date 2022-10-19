@@ -1,12 +1,13 @@
 import React from "react";
 import Top from "./routes/Top/Top";
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import Login from "./routes/Login/Login";
+import { Routes, Route, Link } from "react-router-dom";
 
 const App = () => (
   <>
     <Routes>
       <Route path="/" element={<Top />} />
-      <Route path="/signup" element={<Top />} />
+      <Route path="/login" element={<Login />} />
     </Routes>
   </>
 );
