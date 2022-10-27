@@ -2,19 +2,19 @@ body {
   background: rgb(202, 202, 199);
 }
 
-.formContainer {
+/* .formContainer {
   height: 100vh;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-}
+} */
 
-h1 {
+/* h1 {
   text-align: center;
-}
+} */
 
-.formContainer form {
+/* .formContainer form {
   background-color: white;
   width: 70%;
   max-width: 450px;
@@ -23,39 +23,39 @@ h1 {
   border: 1px solid #dfdfdf;
   box-shadow: 19px 8px 45px -5px #777777;
   border-radius: 19px;
-}
+} */
 
-.uiForm {
+/* .uiForm {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
   height: 400px;
-}
+} */
 
-.formField {
+/* .formField {
   display: flex;
   flex-direction: column;
   width: 100%;
-}
+} */
 
-.formField input {
+/* .formField input {
   border: 1px solid grey;
   padding: 20px;
   border-radius: 4px;
-}
+} */
 
-.formField input:focus {
+/* .formField input:focus {
   outline: none;
-}
+} */
 
-.formField label {
+/* .formField label {
   font-size: 15px;
   font-weight: 600;
   margin-bottom: 3px;
-}
+} */
 
-button {
+/* button {
   background-color: #0e528d;
   width: 100%;
   margin-top: 10px;
@@ -65,8 +65,8 @@ button {
   color: white;
   cursor: pointer;
   transition: all 0.2s;
-}
+} */
 
-button:hover {
+/* button:hover {
   background-color: #175892;
-}
+} */
