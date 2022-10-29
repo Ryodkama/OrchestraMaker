@@ -1,19 +1,26 @@
 import React from "react";
-import Footer from "./Footer/Footer";
-import Header from "./Header/Header";
-import { Link } from "react-router-dom";
+import Footer from "../../components/Footer/Footer";
+import Header from "../../components/Header/Header";
+import styled from "styled-components";
+import "../../App.css";
+
+const Topdiv = styled.div`
+  width: 100%;
+  height: 100vh;
+  * {
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+  }
+`;
 
 const Top = () => {
   return (
     <>
-      <Header />
-      <div>
-        私たちのAIはオーケストレーションをサポートすることによって,編曲を行う際の,初心者のハードルを下げます.
-        <br />
-        ピアノなどの楽譜データからバンド構成または,フルオーケストラ構成へオーケストレーションを自動で行い,編曲をするAIの制作を目指す。
-      </div>
-
-      <Footer />
+      <Topdiv>
+        <Header />
+        <Footer />
+      </Topdiv>
     </>
   );
 };
