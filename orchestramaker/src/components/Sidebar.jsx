@@ -6,10 +6,16 @@ const Sidebardiv = styled.div`
   height: 100%;
   width: 250px;
   background-color: white;
+  border-right: solid 1px #b6b6b6;
+  /* padding-top: 70px; */
+  padding-bottom: 100px; /*←footerの高さ*/
+  box-sizing: border-box; /*←全て含めてmin-height:100vhに*/
+  position: fixed; /* ヘッダーを固定する */
 
   .SiderbarList {
+    padding-top: 70px;
     height: auto;
-    padding: 0;
+    /* padding: 0; */
     width: 100%;
   }
   .SiderbarList #active {
@@ -20,13 +26,13 @@ const Sidebardiv = styled.div`
     height: 60px;
     background-color: #ffffffec;
     display: flex;
-    /* color: white; */
     justify-content: center;
     align-items: center;
   }
   .row:hover {
     cursor: pointer;
-    background-color: #b6b9ba;
+    background-color: #e3e3e3;
+    transition: 0.2s;
   }
   .row #icon {
     flex: 30%;
