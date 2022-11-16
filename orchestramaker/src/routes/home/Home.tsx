@@ -1,9 +1,7 @@
 import React from "react";
-import Footer from "../../components/Footer/Footer";
 import Header from "../../components/Header/Header";
 import Sidebar from "../../components/Sidebar";
 import styled from "styled-components";
-import "../../App.css";
 
 const Homediv = styled.div`
   width: 100%;
@@ -21,7 +19,6 @@ const Home = () => {
       <Homediv>
         <Header />
         <Sidebar />
-        <Footer />
       </Homediv>
     </>
   );

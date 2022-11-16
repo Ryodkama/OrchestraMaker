@@ -49,7 +49,7 @@ const HeaderTag = styled.div`
     /* align-items: center; */
     margin-right: auto;
     text-align: left;
-    padding: 20px 20px;
+    padding: 10px 15px;
     display: block;
     text-decoration: none;
     color: black;

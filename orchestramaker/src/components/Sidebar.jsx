@@ -4,7 +4,7 @@ import { SidebarData } from "./SidebarData";
 
 const Sidebardiv = styled.div`
   height: 100%;
-  width: 250px;
+  width: 240px;
   background-color: white;
   border-right: solid 1px #b6b6b6;
   /* padding-top: 70px; */
@@ -35,12 +35,12 @@ const Sidebardiv = styled.div`
     transition: 0.2s;
   }
   .row #icon {
-    flex: 30%;
+    flex: 25%;
     display: grid;
     /* place-items: center; */
   }
   .row #title {
-    flex: 70%;
+    flex: 75%;
   }
 `;
 

@@ -3,11 +3,6 @@ import HomeIcon from "@mui/icons-material/Home";
 
 export const SidebarData = [
   {
-    title: "ホーム",
-    icon: <HomeIcon />,
-    link: "/",
-  },
-  {
     title: "みんなのオーケストラ",
     icon: <HomeIcon />,
     link: "/oche",
